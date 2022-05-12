@@ -39,5 +39,10 @@ window.addEventListener("scroll", () => {
   } else {
     isBackToTopRendered = false;
     alterStyles(isBackToTopRendered);
-  }
+  }  
 });
+
+$(document).ready(function(){
+      //AOS animation
+      AOS.init();
+})
